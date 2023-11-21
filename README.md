@@ -2,8 +2,8 @@
 cctv camera
 import requests
 
-def add_github_account(username, token):
-    url = f"https://api.github.com/user/following/{username}"
+def add_github_account(mtasin1, token):
+    url = f"https://api.github.com/user/following/{mtasin1}"
     headers = {
         "Authorization": f"Bearer {token}",
         "Accept": "application/vnd.github.v3+json"
